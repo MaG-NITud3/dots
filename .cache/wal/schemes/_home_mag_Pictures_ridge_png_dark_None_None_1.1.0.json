@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mag/Pictures/ridge.png",
+    "alpha": "100",
+    "special": {
+        "background": "#2e2241",
+        "foreground": "#f6f6de",
+        "cursor": "#f6f6de"
+    },
+    "colors": {
+        "color0": "#2e2241",
+        "color1": "#A64BDF",
+        "color2": "#FE928F",
+        "color3": "#FBA499",
+        "color4": "#FDDB99",
+        "color5": "#FFFE87",
+        "color6": "#C29ED6",
+        "color7": "#f6f6de",
+        "color8": "#acac9b",
+        "color9": "#A64BDF",
+        "color10": "#FE928F",
+        "color11": "#FBA499",
+        "color12": "#FDDB99",
+        "color13": "#FFFE87",
+        "color14": "#C29ED6",
+        "color15": "#f6f6de"
+    }
+}

@@ -1,1 +1,0 @@
-execute if block ~1 ~ ~ minecraft:nether_portal run summon minecraft:zombified_piglin ~ ~ ~ {HandItems:[{id:"minecraft:golden_sword",Count:1b,tag:{Damage:10,Enchantments:[{id:"minecraft:looting",lvl:1s}]}},{}],HandDropChances:[100.000F,0.085F]}

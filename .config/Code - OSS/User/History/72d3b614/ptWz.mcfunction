@@ -1,1 +1,0 @@
-execute as @p at @p store result score @p testboard if predicate test:is_portal

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mag/Downloads/mirror_temple.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e090d",
+        "foreground": "#b1bec2",
+        "cursor": "#b1bec2"
+    },
+    "colors": {
+        "color0": "#0e090d",
+        "color1": "#50464E",
+        "color2": "#594E6E",
+        "color3": "#9E555E",
+        "color4": "#6A5B8D",
+        "color5": "#956FA0",
+        "color6": "#CF6F93",
+        "color7": "#b1bec2",
+        "color8": "#7b8587",
+        "color9": "#50464E",
+        "color10": "#594E6E",
+        "color11": "#9E555E",
+        "color12": "#6A5B8D",
+        "color13": "#956FA0",
+        "color14": "#CF6F93",
+        "color15": "#b1bec2"
+    }
+}

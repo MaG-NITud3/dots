@@ -1,1 +1,0 @@
-execute at @p if predicate test:pos_check if entity @p[tag=!Executed1] run function test:auto_command/command

@@ -1,0 +1,21 @@
+set $wallpaper /home/mag/Pictures/madeline.jpg
+
+set $background #1e1c1c
+set $foreground #cdd1da
+
+set $color0 #1e1c1c
+set $color1 #6577A1
+set $color2 #6F83AA
+set $color3 #9F8EA4
+set $color4 #E0A193
+set $color5 #FBDF9A
+set $color6 #FEF08B
+set $color7 #cdd1da
+set $color8 #8f9298
+set $color9 #6577A1
+set $color10 #6F83AA
+set $color11 #9F8EA4
+set $color12 #E0A193
+set $color13 #FBDF9A
+set $color14 #FEF08B
+set $color15 #cdd1da

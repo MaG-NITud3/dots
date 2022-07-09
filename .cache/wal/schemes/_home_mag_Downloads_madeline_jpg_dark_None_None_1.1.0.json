@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mag/Downloads/madeline.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1e1c1c",
+        "foreground": "#cdd1da",
+        "cursor": "#cdd1da"
+    },
+    "colors": {
+        "color0": "#1e1c1c",
+        "color1": "#6577A1",
+        "color2": "#6F83AA",
+        "color3": "#9F8EA4",
+        "color4": "#E0A193",
+        "color5": "#FBDF9A",
+        "color6": "#FEF08B",
+        "color7": "#cdd1da",
+        "color8": "#8f9298",
+        "color9": "#6577A1",
+        "color10": "#6F83AA",
+        "color11": "#9F8EA4",
+        "color12": "#E0A193",
+        "color13": "#FBDF9A",
+        "color14": "#FEF08B",
+        "color15": "#cdd1da"
+    }
+}

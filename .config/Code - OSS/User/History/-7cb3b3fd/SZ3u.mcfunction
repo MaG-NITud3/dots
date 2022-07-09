@@ -1,1 +1,0 @@
-fill ~10 ~ ~10 ~-10 ~ ~-10 acacia_pressure_plate

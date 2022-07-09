@@ -1,2 +1,0 @@
-scoreboard objectives add GameTicks dummy
-scoreboard objectives setdisplay sidebar GameTicks

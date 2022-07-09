@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/mag/Pictures/madeline.jpg"
+let background = "#1e1c1c"
+let foreground = "#cdd1da"
+let cursor     = "#cdd1da"
+
+" Colors
+let color0  = "#1e1c1c"
+let color1  = "#6577A1"
+let color2  = "#6F83AA"
+let color3  = "#9F8EA4"
+let color4  = "#E0A193"
+let color5  = "#FBDF9A"
+let color6  = "#FEF08B"
+let color7  = "#cdd1da"
+let color8  = "#8f9298"
+let color9  = "#6577A1"
+let color10 = "#6F83AA"
+let color11 = "#9F8EA4"
+let color12 = "#E0A193"
+let color13 = "#FBDF9A"
+let color14 = "#FEF08B"
+let color15 = "#cdd1da"

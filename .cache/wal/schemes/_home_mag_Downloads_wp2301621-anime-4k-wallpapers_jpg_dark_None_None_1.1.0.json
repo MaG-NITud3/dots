@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mag/Downloads/wp2301621-anime-4k-wallpapers.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050614",
+        "foreground": "#c8cecc",
+        "cursor": "#c8cecc"
+    },
+    "colors": {
+        "color0": "#050614",
+        "color1": "#525365",
+        "color2": "#988762",
+        "color3": "#33608E",
+        "color4": "#50709E",
+        "color5": "#5E8AB1",
+        "color6": "#67A0C6",
+        "color7": "#c8cecc",
+        "color8": "#8c908e",
+        "color9": "#525365",
+        "color10": "#988762",
+        "color11": "#33608E",
+        "color12": "#50709E",
+        "color13": "#5E8AB1",
+        "color14": "#67A0C6",
+        "color15": "#c8cecc"
+    }
+}

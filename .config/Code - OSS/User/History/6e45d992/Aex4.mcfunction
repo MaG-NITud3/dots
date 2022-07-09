@@ -1,2 +1,0 @@
-execute as @e[type=piglin,predicate=test:piglin_offhand_gold] if score @s Barter matches 120 run scoreboard players add @p Times 1
-execute as @e[type=piglin,predicate=test:piglin_offhand_gold] if score @s Barter matches 120 run scoreboard players reset @s Barter
