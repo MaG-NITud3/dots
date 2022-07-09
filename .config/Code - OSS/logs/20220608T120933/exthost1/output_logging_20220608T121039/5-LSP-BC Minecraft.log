@@ -1,0 +1,16 @@
+starting minecraft server
+Initializing minecraft server
+Initialized minecraft server
+[Info  - 12:29:30 PM] Traversing starting...
+[Info  - 12:29:30 PM] Reseting database
+[Info  - 12:29:30 PM] Traversing workspace: /home/mag/Workstation/Crap/gitwork/Datapacks/TAS
+[Info  - 12:29:30 PM] Traversing complete
+[Info  - 12:29:30 PM] Diagnostics completed
+[Info  - 12:29:30 PM] Took: 30:0:66 for 0 items
+Semantic tokens: piglin_offhand_gold | json
+Semantic tokens: is_portal | json
+Semantic tokens: pos_check | json
+Semantic tokens: tree1 | json
+Semantic tokens: tree1 | json
+Semantic tokens: treetest1 | json
+shutting down minecraft server

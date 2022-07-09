@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "b0340303-0a5a-4a20-9b9c-fc8ce9880078",
+    "explorer.compactFolders": false,
+    "BC-MC.Education.Enable": true,
+    "datapack.env.cmdVersion": "1.16",
+    "datapack.env.jsonVersion": "1.16",
+    "datapack.env.exclude": [
+        ".git",
+        "LICENSE",
+        "README.md"
+    ]
+}

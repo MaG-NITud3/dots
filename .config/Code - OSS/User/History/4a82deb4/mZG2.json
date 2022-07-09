@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:ender_pearl",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "Barter": 120
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

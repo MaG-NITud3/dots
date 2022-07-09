@@ -1,0 +1,4 @@
+[2022-06-23 12:30:01.695] [sharedprocess] [info] Deleted from disk spgoding.datapack-language-server /home/mag/.vscode-oss/extensions/spgoding.datapack-language-server-3.3.32
+[2022-06-23 12:30:01.746] [sharedprocess] [info] Starting worker process with pid 3225613 (type: fileWatcher, window: 1).
+[2022-06-23 12:30:25.366] [sharedprocess] [info] Worker process with pid 3225613 terminated normally (type: fileWatcher, window: 1).
+[2022-06-23 12:30:27.478] [sharedprocess] [info] Starting worker process with pid 3249055 (type: fileWatcher, window: 1).

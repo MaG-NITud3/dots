@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "Barter": {
+        "min": 241,
+        "max": 360
+      }
+    }
+  }
+  

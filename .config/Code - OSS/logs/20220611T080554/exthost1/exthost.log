@@ -1,0 +1,32 @@
+[2022-06-11 08:05:58.910] [exthost] [info] Extension host with pid 4190 started
+[2022-06-11 08:05:58.911] [exthost] [info] Skipping acquiring lock for /home/mag/.config/Code - OSS/User/workspaceStorage/2ba5995fbd8cbadc8b84b421bb2976b6.
+[2022-06-11 08:05:59.175] [exthost] [info] ExtensionService#_doActivateExtension SPGoding.datapack-language-server, startup: false, activationEvent: 'onLanguage:mcfunction'
+[2022-06-11 08:05:59.226] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-11 08:05:59.230] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-11 08:05:59.243] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-11 08:05:59.254] [exthost] [info] ExtensionService#_doActivateExtension cweijan.git-history-plus, startup: true, activationEvent: '*'
+[2022-06-11 08:05:59.329] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-06-11 08:06:00.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-11 08:06:00.125] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-11 08:06:00.318] [exthost] [info] Eager extensions activated
+[2022-06-11 08:06:00.353] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-11 08:06:00.368] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-11 08:06:00.372] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-11 08:06:00.561] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-11 08:06:00.628] [exthost] [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-11 10:36:41.852] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 10:36:41.855] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:49:56.836] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:49:56.840] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:52:00.442] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:52:00.444] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:52:32.550] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:52:32.553] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:52:37.029] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:52:37.029] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:52:39.595] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 16:52:39.595] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 17:25:04.742] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 17:25:04.743] [exthost] [warning] SPGoding.datapack-language-server - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.fixAll'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2022-06-11 17:43:18.517] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-11 17:43:18.858] [exthost] [info] Extension host with pid 4190 exiting with code 0

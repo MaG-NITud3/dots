@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/ender_pearl",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

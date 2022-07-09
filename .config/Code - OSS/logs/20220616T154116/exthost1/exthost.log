@@ -1,0 +1,18 @@
+[2022-06-16 15:41:22.487] [exthost] [info] Extension host with pid 198286 started
+[2022-06-16 15:41:22.487] [exthost] [info] Skipping acquiring lock for /home/mag/.config/Code - OSS/User/workspaceStorage/2ba5995fbd8cbadc8b84b421bb2976b6.
+[2022-06-16 15:41:23.076] [exthost] [info] ExtensionService#_doActivateExtension SPGoding.datapack-language-server, startup: false, activationEvent: 'onLanguage:mcfunction'
+[2022-06-16 15:41:23.131] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-16 15:41:23.138] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-16 15:41:23.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-16 15:41:23.153] [exthost] [info] ExtensionService#_doActivateExtension cweijan.git-history-plus, startup: true, activationEvent: '*'
+[2022-06-16 15:41:23.250] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-06-16 15:41:24.307] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-16 15:41:24.467] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-16 15:41:24.845] [exthost] [info] Eager extensions activated
+[2022-06-16 15:41:25.609] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-16 15:41:25.644] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-16 15:41:25.650] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-16 15:41:25.861] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-16 15:41:25.907] [exthost] [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-16 15:42:22.208] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-06-16 15:42:22.270] [exthost] [info] Extension host with pid 198286 exiting with code 0

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.16.5",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:sand"
+        }
+    ],
+    "result": {
+        "item": "minecraft:obsidian",
+        "count": 20
+    }
+}

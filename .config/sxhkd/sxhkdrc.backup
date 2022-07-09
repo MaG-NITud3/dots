@@ -1,0 +1,100 @@
+#closes selected window
+alt+q
+	bspc node -c
+
+#opens terminal
+ctrl+alt+t
+	xfce4-terminal
+
+#focus on a direction
+alt+{Up,Down,Left,Right}
+	bspc node -f {north,south,west,east}
+
+#swap windows
+alt+shift+{Up,Down,Left,Right}
+	bspc node -s {north,south,west,east}
+
+#send window do workspace
+alt+{0-9}
+	bspc node -d {0-9} --follow
+
+#resizing windows
+#ctrl+alt+{Up,Down,Left,Right}
+#	bspc node -z {top -20,bottom -20,left 20,right 20}
+
+#go to workspace
+ctrl+alt+{1-5}
+	bspc desktop -f {1-5}
+
+#make window fullscreen
+alt+a
+	bspc node -t ~fullscreen
+
+#switch between tiling and floating
+alt+s
+	bspc node -t ~floating
+	
+#restart bspwm
+alt+F5
+	bspc wm -r
+
+#reset tiles to default coords
+alt+r
+	bspc node -E
+
+#change tile position
+#shift+tab
+	
+#Manual Insertion Tiling
+#alt+ctrl+{w,s,a,d}
+#	bspc node -p {north,south,west,east}
+
+#launch rofi
+alt+F1
+	rofi -show combi
+
+#launch browser
+ctrl+alt+c
+	chromium
+
+#launch xkill
+ctrl+alt+x
+	xkill
+
+#launch flameshot gui
+Print
+	flameshot gui
+	
+#screenshot full screen
+ctrl+Print
+	flameshot full -p /home/mag/Pictures/Screenshots -d 0
+
+#launch rofi
+super+a
+	rofi -show combi
+
+#launch rofi combi
+super+s
+	rofi -show drun
+
+#launch galculator
+ctrl+alt+g
+	galculator
+
+#lauch rofi shutdown menu
+super+l
+	rofi -show power-menu -modi power-menu:rofi-power-menu
+
+#launch tas script
+alt+Insert
+	/home/mag/tas.sh
+
+#resize window (smart), stolen from github
+shift + ctrl + alt + {Left,Down,Up,Right}
+  n=25; \
+  { d1=left;   d2=right;  dx=-$n; dy=0;   \
+  , d1=bottom; d2=top;    dx=0;   dy=$n;  \
+  , d1=top;    d2=bottom; dx=0;   dy=-$n; \
+  , d1=right;  d2=left;   dx=$n;  dy=0;   \
+  } \
+  bspc node --resize $d1 $dx $dy || bspc node --resize $d2 $dx $dy

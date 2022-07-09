@@ -1,0 +1,8 @@
+[2022-05-28 09:51:17.101] [sharedprocess] [info] Starting worker process with pid 86300 (type: fileWatcher, window: 1).
+[2022-05-28 09:52:16.840] [sharedprocess] [info] Getting Manifest... dlasagno.wal-theme
+[2022-05-28 09:52:17.060] [sharedprocess] [info] Installing extension: dlasagno.wal-theme
+[2022-05-28 09:52:19.299] [sharedprocess] [info] Downloaded extension: dlasagno.wal-theme /home/mag/.config/Code - OSS/CachedExtensionVSIXs/dlasagno.wal-theme-1.1.2
+[2022-05-28 09:52:19.883] [sharedprocess] [info] Extracted extension to /home/mag/.vscode-oss/extensions/.ef3320d7-d9f1-41ec-b595-d84652cff131: dlasagno.wal-theme
+[2022-05-28 09:52:19.930] [sharedprocess] [info] Renamed to /home/mag/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2
+[2022-05-28 09:52:19.932] [sharedprocess] [info] Extracting completed. dlasagno.wal-theme
+[2022-05-28 09:52:19.934] [sharedprocess] [info] Extension installed successfully: dlasagno.wal-theme

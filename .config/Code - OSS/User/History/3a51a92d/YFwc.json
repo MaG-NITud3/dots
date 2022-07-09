@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "position": {
+      "x": 201,
+      "y": 69,
+      "z": 80
+    }
+  }
+}

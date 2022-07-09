@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/ender_pearl",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "test:first"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/obsidian",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "test:second"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "test:bartering/string",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "test:third"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

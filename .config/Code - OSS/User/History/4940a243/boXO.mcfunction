@@ -1,0 +1,6 @@
+execute store result score @p GameTicks run time query gametime
+execute if predicate mag:rain run scoreboard players get @p GameTicks
+execute unless predicate mag:rain run tag @p remove Rain
+execute unless predicate mag:thunder run tag @p remove Thunder
+function mag:rain_check
+function mag:thunder_check

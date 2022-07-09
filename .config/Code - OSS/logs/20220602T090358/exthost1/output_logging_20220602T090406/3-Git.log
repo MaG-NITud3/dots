@@ -1,0 +1,18 @@
+[2022-06-02T03:34:10.030Z] Validating found git in: git
+[2022-06-02T03:34:10.118Z] Using git 2.36.1 from git
+[2022-06-02T03:34:10.274Z] > git rev-parse --show-toplevel [142ms]
+[2022-06-02T03:34:10.971Z] > git rev-parse --git-dir --git-common-dir [681ms]
+[2022-06-02T03:34:10.977Z] Open repository: /home/mag/Workstation/Crap/gitwork/Datapacks/RainCheck
+[2022-06-02T03:34:11.260Z] > git status -z -uall [265ms]
+[2022-06-02T03:34:11.302Z] > git symbolic-ref --short HEAD [9ms]
+[2022-06-02T03:34:11.383Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [56ms]
+[2022-06-02T03:34:11.400Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-06-02T03:34:11.401Z] > git remote --verbose [5ms]
+[2022-06-02T03:34:11.414Z] > git config --get commit.template [3ms]
+[2022-06-02T03:34:11.483Z] > git show --textconv :pack.mcmeta [45ms]
+[2022-06-02T03:34:11.487Z] > git ls-files --stage -- /home/mag/Workstation/Crap/gitwork/Datapacks/RainCheck/pack.mcmeta [6ms]
+[2022-06-02T03:34:11.517Z] > git cat-file -s 8f1ce6fe3a830756fb95c72fe52e07f0263afc57 [16ms]
+[2022-06-02T03:34:11.943Z] > git check-ignore -v -z --stdin [103ms]
+[2022-06-02T03:34:40.591Z] > git ls-files --stage -- /home/mag/Workstation/Crap/gitwork/Datapacks/RainCheck/data/mag/functions/thunder_check.mcfunction [55ms]
+[2022-06-02T03:34:40.660Z] > git show --textconv :data/mag/functions/thunder_check.mcfunction [133ms]
+[2022-06-02T03:34:40.717Z] > git cat-file -s 25d0f3392a58bc9c8516d2d8586907d600e421ff [118ms]

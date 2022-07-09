@@ -1,0 +1,39 @@
+[2022-06-02 09:04:07.277] [sharedprocess] [info] Starting worker process with pid 44416 (type: fileWatcher, window: 1).
+[2022-06-02 09:04:12.755] [sharedprocess] [info] Getting Manifest... redhat.java
+[2022-06-02 09:04:12.776] [sharedprocess] [info] Getting Manifest... vscjava.vscode-java-debug
+[2022-06-02 09:04:12.776] [sharedprocess] [info] Getting Manifest... vscjava.vscode-maven
+[2022-06-02 09:04:14.818] [sharedprocess] [info] Installing extension: redhat.java
+[2022-06-02 09:04:14.851] [sharedprocess] [info] Installing extension: vscjava.vscode-java-debug
+[2022-06-02 09:04:14.852] [sharedprocess] [info] Installing extension: vscjava.vscode-maven
+[2022-06-02 09:04:54.055] [sharedprocess] [info] Worker process with pid 44416 terminated normally (type: fileWatcher, window: 1).
+[2022-06-02 09:04:55.448] [sharedprocess] [info] Starting worker process with pid 47517 (type: fileWatcher, window: 1).
+[2022-06-02 09:04:58.742] [sharedprocess] [info] Getting Manifest... redhat.java
+[2022-06-02 09:04:58.759] [sharedprocess] [info] Getting Manifest... vscjava.vscode-java-debug
+[2022-06-02 09:04:58.759] [sharedprocess] [info] Getting Manifest... vscjava.vscode-maven
+[2022-06-02 09:05:05.391] [sharedprocess] [info] Extensions is already requested to install redhat.java
+[2022-06-02 09:05:06.501] [sharedprocess] [info] Extensions is already requested to install vscjava.vscode-java-debug
+[2022-06-02 09:05:06.708] [sharedprocess] [info] Extensions is already requested to install vscjava.vscode-maven
+[2022-06-02 09:05:08.036] [sharedprocess] [info] Worker process with pid 47517 terminated normally (type: fileWatcher, window: 1).
+[2022-06-02 09:05:09.270] [sharedprocess] [info] Starting worker process with pid 48472 (type: fileWatcher, window: 1).
+[2022-06-02 09:05:14.272] [sharedprocess] [info] Getting Manifest... redhat.java
+[2022-06-02 09:05:14.314] [sharedprocess] [info] Getting Manifest... vscjava.vscode-java-debug
+[2022-06-02 09:05:14.314] [sharedprocess] [info] Getting Manifest... vscjava.vscode-maven
+[2022-06-02 09:05:15.379] [sharedprocess] [info] Extensions is already requested to install redhat.java
+[2022-06-02 09:05:15.556] [sharedprocess] [info] Extensions is already requested to install vscjava.vscode-java-debug
+[2022-06-02 09:05:15.903] [sharedprocess] [info] Extensions is already requested to install vscjava.vscode-maven
+[2022-06-02 09:06:10.946] [sharedprocess] [error] RequestService#request (browser) - error https://open-vsx.org/vscode/asset/vscjava/vscode-java-debug/0.41.0/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&update=true {}
+[2022-06-02 09:09:15.307] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-debug /home/mag/.config/Code - OSS/CachedExtensionVSIXs/vscjava.vscode-java-debug-0.41.0
+[2022-06-02 09:09:15.766] [sharedprocess] [info] Extracted extension to /home/mag/.vscode-oss/extensions/.f79dce45-69c3-41d1-8344-e44708b43236: vscjava.vscode-java-debug
+[2022-06-02 09:09:15.802] [sharedprocess] [info] Renamed to /home/mag/.vscode-oss/extensions/vscjava.vscode-java-debug-0.41.0
+[2022-06-02 09:09:15.806] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-debug
+[2022-06-02 09:09:15.947] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-debug
+[2022-06-02 09:09:46.474] [sharedprocess] [info] Downloaded extension: vscjava.vscode-maven /home/mag/.config/Code - OSS/CachedExtensionVSIXs/vscjava.vscode-maven-0.35.2
+[2022-06-02 09:09:46.724] [sharedprocess] [info] Extracted extension to /home/mag/.vscode-oss/extensions/.0f608911-c280-46fd-8f54-fd0dbd3563a4: vscjava.vscode-maven
+[2022-06-02 09:09:46.753] [sharedprocess] [info] Renamed to /home/mag/.vscode-oss/extensions/vscjava.vscode-maven-0.35.2
+[2022-06-02 09:09:46.759] [sharedprocess] [info] Extracting completed. vscjava.vscode-maven
+[2022-06-02 09:09:46.810] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-maven
+[2022-06-02 09:09:57.022] [sharedprocess] [info] Downloaded extension: redhat.java /home/mag/.config/Code - OSS/CachedExtensionVSIXs/redhat.java-1.7.0
+[2022-06-02 09:09:57.768] [sharedprocess] [info] Extracted extension to /home/mag/.vscode-oss/extensions/.1b3aa0ec-3a8f-4e7a-981f-d87a2d9ab172: redhat.java
+[2022-06-02 09:09:57.792] [sharedprocess] [info] Renamed to /home/mag/.vscode-oss/extensions/redhat.java-1.7.0
+[2022-06-02 09:09:57.796] [sharedprocess] [info] Extracting completed. redhat.java
+[2022-06-02 09:09:57.815] [sharedprocess] [info] Extension installed successfully: redhat.java

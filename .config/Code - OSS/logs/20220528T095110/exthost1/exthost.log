@@ -1,0 +1,24 @@
+[2022-05-28 09:51:16.180] [exthost] [info] Extension host with pid 86020 started
+[2022-05-28 09:51:16.181] [exthost] [info] Skipping acquiring lock for /home/mag/.config/Code - OSS/User/workspaceStorage/db4f8571679b459a449c581f7353521d.
+[2022-05-28 09:51:16.636] [exthost] [info] ExtensionService#_doActivateExtension SPGoding.datapack-language-server, startup: false, activationEvent: 'onLanguage:mcfunction'
+[2022-05-28 09:51:16.724] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-28 09:51:16.741] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-28 09:51:16.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-28 09:51:16.785] [exthost] [info] ExtensionService#_doActivateExtension cweijan.git-history-plus, startup: true, activationEvent: '*'
+[2022-05-28 09:51:17.242] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-28 09:51:17.335] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-28 09:51:17.532] [exthost] [info] Eager extensions activated
+[2022-05-28 09:51:17.634] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-28 09:51:17.669] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-28 09:51:17.702] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-28 09:51:18.676] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-28 09:51:18.801] [exthost] [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-28 09:52:20.364] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: false, activationEvent: '*'
+[2022-05-28 09:52:53.507] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-28 09:52:53.573] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-28 09:52:53.668] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-28 09:52:53.804] [exthost] [info] ExtensionService#_doActivateExtension BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-28 09:52:56.953] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-05-28 09:52:56.992] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-05-28 09:53:44.623] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-05-28 09:53:44.693] [exthost] [info] Extension host with pid 86020 exiting with code 0

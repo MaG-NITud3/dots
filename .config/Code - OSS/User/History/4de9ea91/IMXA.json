@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:location_check",
+  "offsetX": 1,
+  "offsetY": 1,
+  "predicate": {
+    "block": {
+      "block": "minecraft:nether_portal"
+    }
+  }
+}

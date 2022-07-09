@@ -1,0 +1,15 @@
+[2022-06-08T06:39:41.104Z] Validating found git in: git
+[2022-06-08T06:39:41.283Z] Using git 2.36.1 from git
+[2022-06-08T06:39:41.437Z] > git rev-parse --show-toplevel [128ms]
+[2022-06-08T06:39:41.444Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-06-08T06:39:41.446Z] Open repository: /home/mag/Workstation/Crap/gitwork/Datapacks/Bartering Queue
+[2022-06-08T06:39:41.775Z] > git status -z -uall [324ms]
+[2022-06-08T06:39:41.788Z] > git show --textconv :README.md [26ms]
+[2022-06-08T06:39:42.191Z] > git ls-files --stage -- /home/mag/Workstation/Crap/gitwork/Datapacks/Bartering Queue/README.md [418ms]
+[2022-06-08T06:39:42.311Z] > git check-ignore -v -z --stdin [86ms]
+[2022-06-08T06:39:42.312Z] > git cat-file -s c46a5bff76aec2bccc7ffc5ae8ac4a6bed57d42c [106ms]
+[2022-06-08T06:39:42.313Z] > git symbolic-ref --short HEAD [526ms]
+[2022-06-08T06:39:42.430Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [111ms]
+[2022-06-08T06:39:42.443Z] > git remote --verbose [2ms]
+[2022-06-08T06:39:42.617Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [181ms]
+[2022-06-08T06:39:42.635Z] > git config --get commit.template [5ms]

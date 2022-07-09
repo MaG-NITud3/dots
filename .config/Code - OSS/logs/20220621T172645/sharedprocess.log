@@ -1,0 +1,8 @@
+[2022-06-21 17:26:50.200] [sharedprocess] [info] Starting worker process with pid 15964 (type: fileWatcher, window: 1).
+[2022-06-21 17:26:54.256] [sharedprocess] [info] Getting Manifest... spgoding.datapack-language-server
+[2022-06-21 17:26:57.102] [sharedprocess] [info] Installing extension: spgoding.datapack-language-server
+[2022-06-21 17:26:59.116] [sharedprocess] [info] Downloaded extension: spgoding.datapack-language-server /home/mag/.config/Code - OSS/CachedExtensionVSIXs/spgoding.datapack-language-server-3.3.34
+[2022-06-21 17:26:59.329] [sharedprocess] [info] Extracted extension to /home/mag/.vscode-oss/extensions/.c47b0fd5-30a4-498d-b97c-a41aa0363b7a: spgoding.datapack-language-server
+[2022-06-21 17:26:59.357] [sharedprocess] [info] Renamed to /home/mag/.vscode-oss/extensions/spgoding.datapack-language-server-3.3.34
+[2022-06-21 17:26:59.361] [sharedprocess] [info] Extracting completed. spgoding.datapack-language-server
+[2022-06-21 17:26:59.381] [sharedprocess] [info] Extension installed successfully: spgoding.datapack-language-server

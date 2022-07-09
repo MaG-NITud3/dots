@@ -1,0 +1,2 @@
+execute at @e[type=minecraft:tnt,nbt={Fuse: 10s}] as @e[type=minecraft:tnt,nbt={Fuse: 10s}] run tp @e[tag=EnderMan] ~ ~ ~
+execute as @e[type=minecraft:tnt,nbt={Fuse: 10s}] at @e[type=minecraft:tnt,nbt={Fuse: 10s}] run playsound minecraft:entity.enderman.teleport master @p ~ ~ ~

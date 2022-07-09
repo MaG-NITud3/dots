@@ -1,0 +1,21 @@
+{
+    "type": "barter",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:glass_bottle",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
