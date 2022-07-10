@@ -12,6 +12,11 @@ HISTFILE=~/.zsh_history
 bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
 
+wallpaper(){
+	wal -i "$1" -n
+	~/.local/scripts/wallpaper.sh "$1"	
+}
+
 alias gitd="cd /home/mag/Workstation/Crap/gitwork"
 alias die="shutdown -P now"
 alias emerge="sudo pacman -S"

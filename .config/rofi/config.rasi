@@ -1,6 +1,6 @@
 configuration {
 modi: "drun,run,combi";
-font: "Noto Sans Mono Nerd Font 14";
+font: "Sauce Code Pro Nerd Font Complete 14";
 /*	location: 0;*/
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
