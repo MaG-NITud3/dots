@@ -10,8 +10,6 @@ xsetroot -cursor_name left_ptr &
 wmname compiz &
 xfce4-panel -d &
 lxsession &
-killall clipit $
-clipit &
 flameshot &
 nm-applet &
 /usr/bin/python3 /usr/bin/touchpad-indicator &
@@ -35,11 +33,12 @@ dunst &
 	bspc config right_padding -4 &
 	bspc config left_padding -4 &
 	bspc config bottom_padding -4 &
-	bspc config border_width 4 &
+	bspc config border_width 4
 	bspc config window_gap 15 &
 
 #Rules
 	bspc rule -a "Wrapper-2.0" state=floating &
 	bspc rule -a "Zathura" state=tiled &
+#	bspc rule -a "focused.[!]focused" border=off &
 #	bspc rule -a "Xfce4-panel" focus=on
 #	bspc rule -a "xfce4-panel" focus=on
