@@ -6,6 +6,10 @@ super+q
 ctrl+alt+p
 	xprop
 
+#force terminate program with SIGKILL
+ctrl+alt+shift+x
+	kill -9 $(xprop | grep -Po '(?<=(_NET_WM_PID\(CARDINAL\)\ =\ )).*')
+
 #bspwm blank resepticle placer 
 super+ctrl+{w,s,a,d}
 	bspc node --presel-dir {north,south,west,east} -i

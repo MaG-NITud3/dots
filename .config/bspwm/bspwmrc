@@ -1,13 +1,13 @@
 #!/bin/sh
+sxhkd 2>.sxhkd_log &
 bspc rule -r "*"
 
 # AutoStart
-killall sxhkd &
-sxhkd &
 picom &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 wmname compiz &
+clipit &
 xfce4-panel -d &
 lxsession &
 flameshot &

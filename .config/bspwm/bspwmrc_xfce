@@ -5,7 +5,18 @@ bspc rule -r "*"
 xsetroot -cursor_name left_ptr &
 wmname compiz &
 killall sxhkd &
-sxhkd &
+sxhkd 2>1 &
+xfsettingsd &
+nm-applet &
+blueman-applet &
+clipit &
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
+/usr/lib/tracker-miner-fs-3 &
+/usr/bin/python3 /usr/bin/touchpad-indicator &
+xfce4-power-manager &
+picom &
+flameshot &
+
 #pgrep -fl 'pidswallow -gl' || pidswallow -gl &
 
 # Configure

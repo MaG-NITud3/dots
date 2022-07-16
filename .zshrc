@@ -54,4 +54,3 @@ fpath=(/home/mag/Workstation/Crap/gitwork/zsh-completions/src $fpath)
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-cat .sus
