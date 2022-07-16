@@ -13,7 +13,7 @@ bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
 
 wallpaper(){
-	wal -i "$1" -n
+	wal -n -i "$1"
 	~/.local/scripts/wallpaper.sh "$1"	
 }
 

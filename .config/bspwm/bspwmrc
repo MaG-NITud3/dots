@@ -21,6 +21,7 @@ nm-applet &
 /usr/bin/python3 /usr/bin/touchpad-indicator &
 blueman-applet &
 dunst &
+.local/scripts/toggle_touchpad.sh -r
 
 # Configure
 	bspc monitor eDP-1 -d 1 2 3 4 5 &
@@ -41,7 +42,7 @@ dunst &
 	bspc config right_padding $padding &
 	bspc config left_padding $padding &
 	bspc config bottom_padding $padding &
-	bspc config border_width 3
+	bspc config border_width 4
 	bspc config window_gap $gap &
 
 #Rules

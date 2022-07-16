@@ -46,6 +46,10 @@ super+{1-5}
 super+a
 	bspc node -t \~fullscreen
 
+#Disable touchpad
+super+t
+	$HOME/.local/scripts/toggle_touchpad.sh
+	
 #switch between tiling and floating
 super+s
 	bspc node -t \~floating
