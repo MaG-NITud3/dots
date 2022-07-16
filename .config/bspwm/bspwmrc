@@ -35,12 +35,14 @@ dunst &
 	bspc config pointer_modifier super &
 	bspc config pointer_action1 move &
 	bspc config pointer_action3 resize_corner &
-	bspc config top_padding 35 &
-	bspc config right_padding -4 &
-	bspc config left_padding -4 &
-	bspc config bottom_padding -4 &
-	bspc config border_width 4
-	bspc config window_gap 15 &
+	gap=10
+	bspc config top_padding 39+$gap &
+	padding=0
+	bspc config right_padding $padding &
+	bspc config left_padding $padding &
+	bspc config bottom_padding $padding &
+	bspc config border_width 3
+	bspc config window_gap $gap &
 
 #Rules
 	bspc rule -a "Wrapper-2.0" state=floating &
