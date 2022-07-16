@@ -1,22 +1,19 @@
 #!/bin/sh
-
+bspc rule -r "*"
 #sxhkd startup
 if [[ $(pgrep -x sxhkd) ]]; then 
 	pkill -x sxhkd;
-	sxhkd;
 fi
-
-bspc rule -r "*"
-
+sxhkd &
 # AutoStart
 picom &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 wmname compiz &
 if [[ $(pgrep -x clipit) ]]; then 
-	pkill -x clipit;
-	clipit; 
+	pkill -x clipit; 
 fi
+clipit &
 xfce4-panel -d &
 lxsession &
 flameshot &
