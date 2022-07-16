@@ -1,5 +1,11 @@
 #!/bin/sh
-sxhkd 2>.sxhkd_log &
+
+#sxhkd startup
+if [[ $(pgrep -x sxhkd) ]]; then 
+	pkill -x sxhkd;
+	sxhkd;
+fi
+
 bspc rule -r "*"
 
 # AutoStart
@@ -7,7 +13,10 @@ picom &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 wmname compiz &
-clipit &
+if [[ $(pgrep -x clipit) ]]; then 
+	pkill -x clipit;
+	clipit; 
+fi
 xfce4-panel -d &
 lxsession &
 flameshot &
