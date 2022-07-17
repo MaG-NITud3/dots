@@ -50,4 +50,4 @@ dunst &
 	bspc rule -a "Zathura" state=tiled &
 #	bspc rule -a "focused.[!]focused" border=off &
 #	bspc rule -a "Xfce4-panel" focus=on
-#	bspc rule -a "xfce4-panel" focus=on
+#	bspc rule -a "xfce4-panel" focus=ons

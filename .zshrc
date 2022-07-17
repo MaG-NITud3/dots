@@ -3,6 +3,11 @@
 autoload -U colors && colors
 PROMPT="%F{red}[%f%F{cyan}%~%f%F{red}]%f %F{blue}$%f "
 
+autoload -Uz compinit
+compinit
+fpath=(/home/mag/Workstation/Crap/gitwork/zsh-completions/src $fpath)
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # History in cache directory:
 HISTSIZE=10000
@@ -48,9 +53,4 @@ alias pp="bash pipes.sh -p 1 -t 0 -t 1 -t 2 -t 3 -c 1 -c 2 -c 3 -c 4 -c 5 -c- 6 
 alias curl="curl --user-agent \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36\""
 alias conf="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree $HOME"
 
-autoload -Uz compinit
-compinit
-fpath=(/home/mag/Workstation/Crap/gitwork/zsh-completions/src $fpath)
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 

@@ -1,5 +1,5 @@
 " Special
-let wallpaper  = "/home/mag/Pictures/wp2301613-anime-4k-wallpapers.jpg"
+let wallpaper  = "/home/mag/.config/wpg/wallpapers/wp2301613-anime-4k-wallpapers.jpg"
 let background = "#120c13"
 let foreground = "#f2e2c7"
 let cursor     = "#f2e2c7"
