@@ -20,6 +20,9 @@ flameshot &
 nm-applet &
 /usr/bin/python3 /usr/bin/touchpad-indicator &
 blueman-applet &
+if [[ $(pgrep -x dunst) ]]; then 
+	pkill -x dunst;
+fi
 dunst &
 .local/scripts/toggle_touchpad.sh -r
 
