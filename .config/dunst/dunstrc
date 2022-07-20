@@ -1,0 +1,32 @@
+[global]
+    enable_posix_regex = true
+    padding = 10
+    horizontal_padding = 15
+    follow = mouse
+    width = (0, 300)
+    height = 1080
+    notification_limit = 2
+    origin = bottom-right
+    offset = 30x30
+    progress_bar = true
+    gap_size = 10
+    sort = true
+    frame_width = 1
+    format = "<b>%s</b>\n%b"
+    show_indicators = true
+    icon_path = "/usr/share/icons"
+    icon_theme = "dist-dark-nord"
+    enable_recursive_icon_lookup = true
+    dmenu = "/usr/bin/rofi -dmenu"
+    font = JetBrains Mono Regular Nerd Font Complete Mono 12
+    class = dunst
+    background = "#120c13"
+	frame_color = "#EF9F5C"
+	highlight = "#EF9F5C"
+	foreground = "#EF9F5C"
+
+[urgency_critical]
+	background = "#2E3440"
+	frame_color = "#BF616A"
+	highlight = "#BF616A"
+	foreground = "#BF616A"
