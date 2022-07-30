@@ -198,3 +198,4 @@ PS1='\[\e[0;31m\][\[\e[0;96m\]\w\[\e[0;31m\]] \[\e[0;94m\]$ \[\e[0m\]'
 # END_KITTY_SHELL_INTEGRATION
 mogus
 export PATH=$PATH:/home/mag/.spicetify
+. "$HOME/.cargo/env"

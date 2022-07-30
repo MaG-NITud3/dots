@@ -6,7 +6,7 @@ if [[ $(pgrep -x sxhkd) ]]; then
 fi
 sxhkd &
 # AutoStart
-picom --animations --experimental-backends &
+picom --animations --experimental-backends --animation-dampening 15 &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 wmname compiz &
@@ -18,13 +18,18 @@ xfce4-panel -d &
 lxsession &
 flameshot &
 nm-applet &
-/usr/bin/python3 /usr/bin/touchpad-indicator &
-blueman-applet &
+if [[ $(pgrep -x volumeicon) ]]; then 
+	pkill -x volumeicon;
+fi
+volumeicon &
+# /usr/bin/python3 /usr/bin/touchpad-indicator &
+# blueman-applet &
 if [[ $(pgrep -x dunst) ]]; then 
 	pkill -x dunst;
 fi
 dunst &
-.local/scripts/toggle_touchpad.sh -r
+.local/scripts/toggle_touchpad.sh -r &
+thunar --daemon &
 
 # Configure
 	bspc monitor eDP-1 -d 1 2 3 4 5 &
@@ -32,8 +37,8 @@ dunst &
 	bspc config focused_border_color $(xrdb -get "color3") &
 	bspc config normal_border_color $(xrdb -get "color0") &
 	bspc config automatic_scheme alternate
-	#bspc config active_border_color #CF0707
-	#bspc config click_to_focus button1 &
+	# bspc config active_border_color #CF0707
+	# bspc config click_to_focus button1 &
 	bspc config focus_follows_pointer true &
 	bspc config swallow_first_click false &
 	bspc config split_ratio 0.55 &
@@ -46,12 +51,12 @@ dunst &
 	bspc config right_padding $padding &
 	bspc config left_padding $padding &
 	bspc config bottom_padding $padding &
-	bspc config border_width 3
+	bspc config border_width 4
 	bspc config window_gap $gap &
 
 #Rules
 	bspc rule -a "Wrapper-2.0" state=floating &
 	bspc rule -a "Zathura" state=tiled &
-#	bspc rule -a "focused.[!]focused" border=off &
-#	bspc rule -a "Xfce4-panel" focus=on
-#	bspc rule -a "xfce4-panel" focus=ons
+	# bspc rule -a "focused.[!]focused" border=off &
+	# bspc rule -a "Xfce4-panel" focus=on
+	# bspc rule -a "xfce4-panel" focus=ons

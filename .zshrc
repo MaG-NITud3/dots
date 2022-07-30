@@ -21,8 +21,13 @@ bindkey "^[[1;5C" forward-word
 bindkey "^H" backward-delete-word
 
 wallpaper() {
-	wal -n -i "$1"
-	~/.local/scripts/wallpaper.sh "$1"	
+	if [[ $1 == "--random" ]] then;
+		file_name=$(find $2 -type f | shuf -n 1)
+	else
+		file_name=$1
+	fi
+	wal -n -i $file_name
+	~/.local/scripts/wallpaper.sh $file_name
 }
 
 timezsh() {
@@ -55,8 +60,9 @@ alias loli="echo Bitch Report Yourself to FBI"
 alias clock="tty-clock -c"
 alias mogus="cat /home/mag/.mogus"
 alias update-mirrors="sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirroist.backup && sudo rate-mirrors --allow-root  --entry-country india --save /etc/pacman.d/mirrorlist --top-mirrors-number-to-retest 10 arch"
-alias ls="ls -lh --color=auto"
-alias lsa="ls -a"
+alias ls="exa -lh"
+alias lsa="exa -lha"
 alias pp="bash pipes.sh -p 1 -t 0 -t 1 -t 2 -t 3 -c 1 -c 2 -c 3 -c 4 -c 5 -c- 6 -c 7"
 alias curl="curl --user-agent \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36\""
 alias conf="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree $HOME"
+alias cat="bat"

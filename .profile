@@ -7,3 +7,4 @@ export JAVA_HOME="/usr/lib/jvm/java-18-temurin"
 export /usr/local/sbin:/usr/local/bin:/usr/bin:$HOME/.local/bin:$HOME/.local/scripts:/opt/android-sdk/platform-tools:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 #export QT_QPA_PLATFORMTHEME=qt5ct
 #export QT_QPA_PLATFORMTHEME=qt5ct
+. "$HOME/.cargo/env"

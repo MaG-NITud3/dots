@@ -94,6 +94,10 @@ super+k
 super+p
 	rofi -show drun
 
+#launch rofi bluetooth menu
+super+b
+	rofi-bluetooth
+
 #launch galculator
 ctrl+alt+g
 	galculator
