@@ -66,3 +66,4 @@ alias pp="bash pipes.sh -p 1 -t 0 -t 1 -t 2 -t 3 -c 1 -c 2 -c 3 -c 4 -c 5 -c- 6 
 alias curl="curl --user-agent \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36\""
 alias conf="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree $HOME"
 alias cat="bat"
+alias yt="ytfzf -t"

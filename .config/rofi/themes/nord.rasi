@@ -42,8 +42,8 @@ window {
 
     location:   center;
     width:      480px;
-    y-offset:   -160px;
-    border:     1px;
+    y-offset:   0px;
+    border:     4px;
 }
 
 inputbar {

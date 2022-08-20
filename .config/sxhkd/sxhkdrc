@@ -22,6 +22,10 @@ super+d
 ctrl+alt+t
 	kitty
 
+#Launch ytfzf dmenu
+ctrl+alt+y
+	ytfzf -D
+
 #launch thunar
 ctrl+alt+f
 	thunar
