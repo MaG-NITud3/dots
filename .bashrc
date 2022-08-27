@@ -160,33 +160,7 @@ ex ()
 #}
 export JAVA_HOME=/usr/lib/jvm/"java-18-temurin"/
 #custom alias Pepega
-{
-alias die="shutdown -P now"
-alias emerge="sudo pacman -S"
-alias yeet="sudo pacman -Rns"
-alias reborn="sudo reboot"
-alias linux="cat /home/mag/.linuxcopypasta | cowsay"
-alias hack="hollywood"
-alias c="clear"
-alias fuck="sudo !!"
-alias edit="gedit"
-alias bedit="gedit /home/mag/.bashrc"
-alias f="sudo thunar"
-alias please='sudo'
-alias fuck='sudo '!!''
-alias shred="shred -uzvn3"
-alias porn="echo Dude this a linux terminal wtf bro"
-alias sus="cat /home/mag/.sus"
-alias yay="yay $1 --sudoloop --upgrademenu" 
-alias evolve="yay -Syu --answerupgrade None --answerdiff None --answerclean All --answeredit None --noconfirm --sudoloop && flatpak update --noninteractive -y"
-alias evolve-m="update-mirrors && yay -Syyu --answerupgrade None --answerdiff None --answerclean All --answeredit None --noconfirm --sudoloop && flatpak update --noninteractive -y"
-alias thuka="figlet 'Tor Auckat Nei' | lolcat"
-alias loli="echo Bitch Report Yourself to FBI"
-alias clock="tty-clock -c"
-alias mogus="cat /home/mag/.mogus"
-alias update-mirrors="sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirroist.backup && sudo rate-mirrors --allow-root  --entry-country india --save /etc/pacman.d/mirrorlist --top-mirrors-number-to-retest 10 arch"
-alias v="nvim"
-}
+source ~/.alias
 PS1='\[\e[0;31m\][\[\e[0;96m\]\w\[\e[0;31m\]] \[\e[0;94m\]$ \[\e[0m\]'
 
 

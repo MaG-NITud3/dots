@@ -30,6 +30,7 @@ fi
 dunst &
 .local/scripts/toggle_touchpad.sh -r &
 thunar --daemon &
+numlockx on &
 
 # Configure
 	bspc monitor eDP-1 -d 1 2 3 4 5 &
