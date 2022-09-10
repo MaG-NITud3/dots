@@ -1,42 +1,40 @@
-#!/bin/sh
-bspc rule -r "*"
+#!/bin/bash
+	bspc rule -r "*"
 #sxhkd startup
-if [[ $(pgrep -x sxhkd) ]]; then 
-	pkill -x sxhkd;
-fi
-sxhkd &
-# AutoStart
-picom --animations --experimental-backends --animation-dampening 15 &
-nitrogen --restore &
-xsetroot -cursor_name left_ptr &
-wmname compiz &
-if [[ $(pgrep -x clipit) ]]; then 
-	pkill -x clipit; 
-fi
-clipit &
-xfce4-panel -d &
-lxsession &
-flameshot &
-nm-applet &
-if [[ $(pgrep -x volumeicon) ]]; then 
-	pkill -x volumeicon;
-fi
-volumeicon &
-# /usr/bin/python3 /usr/bin/touchpad-indicator &
-# blueman-applet &
-if [[ $(pgrep -x dunst) ]]; then 
-	pkill -x dunst;
-fi
-dunst &
-.local/scripts/toggle_touchpad.sh -r &
-thunar --daemon &
-numlockx on &
+
+#function to start and restart apps
+	start(){
+		#$1 app name, $2 app arguments
+		if [[ $(pgrep -x $1) ]]; then 
+			pkill -x $1;
+		fi
+		exec $1 $2 &
+	}
+
+#Session startup
+	nitrogen --restore &
+	xsetroot -cursor_name left_ptr &
+	wmname compiz &
+	xfce4-panel -d &
+	lxsession &
+	flameshot &
+	nm-applet &
+	.local/scripts/toggle_touchpad.sh -r &
+	thunar --daemon &
+	numlockx on &
+
+#Auto-start ad Restart apps
+	start clipit
+	start sxhkd
+	start volumeicon
+	start dunst
+	start picom '--animations --experimental-backends --animation-dampening 15'
 
 # Configure
 	bspc monitor eDP-1 -d 1 2 3 4 5 &
 	bspc monitor eDP-1 -d 1 2 3 4 5 &
-	bspc config focused_border_color $(xrdb -get "color3") &
-	bspc config normal_border_color $(xrdb -get "color0") &
+	bspc config focused_border_color "$(xrdb -get "color3")" &
+	bspc config normal_border_color "$(xrdb -get "color0")" &
 	bspc config automatic_scheme alternate
 	# bspc config active_border_color #CF0707
 	# bspc config click_to_focus button1 &
