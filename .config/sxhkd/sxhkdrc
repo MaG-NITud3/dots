@@ -123,3 +123,5 @@ shift + ctrl + super + {Left,Down,Up,Right}
   , d1=right;  d2=left;   dx=$n;  dy=0;   \
   } \
   bspc node --resize $d1 $dx $dy || bspc node --resize $d2 $dx $dy
+
+
