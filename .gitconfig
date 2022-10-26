@@ -16,3 +16,5 @@
 	defaultBranch = main
 [merge "ours"]
 	driver = true
+[gui]
+	recentrepo = /home/mag/Workstation/Crap/gitwork/QueueMod

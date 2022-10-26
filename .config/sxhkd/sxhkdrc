@@ -11,7 +11,7 @@ ctrl+alt+shift+x
 	kill -9 $(xprop | grep -Po '(?<=(_NET_WM_PID\(CARDINAL\)\ =\ )).*')
 
 #bspwm blank resepticle placer 
-super+ctrl+{w,s,a,d}
+super+ctrl+{k,j,h,l}
 	bspc node --presel-dir {north,south,west,east} -i
 
 #put focused window to recepticle
@@ -22,6 +22,10 @@ super+d
 ctrl+alt+t
 	kitty
 
+#opens emacs
+ctrl+alt+e
+  emacsclient -c -a 'micro'
+
 #Launch ytfzf dmenu
 ctrl+alt+y
 	ytfzf -D
@@ -31,11 +35,11 @@ ctrl+alt+f
 	thunar
 
 #focus on a direction
-super+{Up,Down,Left,Right}
+super+{k,j,h,l}
 	bspc node -f {north,south,west,east}
 
 #swap windows
-super+shift+{Up,Down,Left,Right}
+super+shift+{k,j,h,l}
 	bspc node -s {north,south,west,east}
 
 #send window do workspace
@@ -107,7 +111,7 @@ ctrl+alt+g
 	galculator
 
 #lauch rofi shutdown menu
-super+l
+super+o
 	rofi -show power-menu -modi power-menu:rofi-power-menu
 
 #launch tas script
@@ -116,6 +120,9 @@ super+l
 
 #resize window (smart), stolen from github
 shift + ctrl + super + {Left,Down,Up,Right}
+
+shift + ctrl + super + {h,j,k,l}
+  n=25; \
   n=25; \
   { d1=left;   d2=right;  dx=-$n; dy=0;   \
   , d1=bottom; d2=top;    dx=0;   dy=$n;  \
