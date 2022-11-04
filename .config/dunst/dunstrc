@@ -20,10 +20,10 @@
     dmenu = "/usr/bin/rofi -dmenu"
     font = JetBrains Mono Regular Nerd Font Complete Mono 12
     class = dunst
-    background = "#0A0F15"
-	frame_color = "#746A87"
-	highlight = "#746A87"
-	foreground = "#746A87"
+    background = "#0f0f0f"
+	frame_color = "#94788A"
+	highlight = "#94788A"
+	foreground = "#94788A"
 
 [urgency_critical]
 	background = "#2E3440"

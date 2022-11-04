@@ -1,5 +1,5 @@
-ex ()
-{
+#!/bin/bash
+
   if [ -f $1 ] ; then
     case $1 in
       *.tar.bz2)   tar xjf $1   ;;
@@ -18,4 +18,3 @@ ex ()
   else
     echo "'$1' is not a valid file"
   fi
-}

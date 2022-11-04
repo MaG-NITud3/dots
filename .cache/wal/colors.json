@@ -1,28 +1,28 @@
 {
-    "wallpaper": "/home/mag/.utils/wallpapers/wi92248710f50-2462-4e80-8e6a-5b4847f0bd9a43688189.png",
+    "wallpaper": "/home/mag/.utils/wallpapers/gogol.png",
     "alpha": "100",
 
     "special": {
-        "background": "#0A0F15",
-        "foreground": "#f6e1c7",
-        "cursor": "#f6e1c7"
+        "background": "#0f0f0f",
+        "foreground": "#dee1e5",
+        "cursor": "#dee1e5"
     },
     "colors": {
-        "color0": "#0A0F15",
-        "color1": "#AF5458",
-        "color2": "#F79567",
-        "color3": "#746A87",
-        "color4": "#A1788E",
-        "color5": "#AE8DA5",
-        "color6": "#E0A3A2",
-        "color7": "#f6e1c7",
-        "color8": "#ac9d8b",
-        "color9": "#AF5458",
-        "color10": "#F79567",
-        "color11": "#746A87",
-        "color12": "#A1788E",
-        "color13": "#AE8DA5",
-        "color14": "#E0A3A2",
-        "color15": "#f6e1c7"
+        "color0": "#0f0f0f",
+        "color1": "#916571",
+        "color2": "#77788A",
+        "color3": "#94788A",
+        "color4": "#A798A6",
+        "color5": "#C1B0BD",
+        "color6": "#CDBAC6",
+        "color7": "#dee1e5",
+        "color8": "#9b9da0",
+        "color9": "#916571",
+        "color10": "#77788A",
+        "color11": "#94788A",
+        "color12": "#A798A6",
+        "color13": "#C1B0BD",
+        "color14": "#CDBAC6",
+        "color15": "#dee1e5"
     }
 }
