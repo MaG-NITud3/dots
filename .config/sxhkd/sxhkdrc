@@ -1,5 +1,5 @@
 #closes selected window
-super+q
+alt+q
 	bspc node -c
 
 #open xprop
@@ -20,7 +20,7 @@ super+d
 
 #opens terminal
 ctrl+alt+t
-	kitty
+	alacritty msg create-window || alacritty
 
 #opens emacs
 ctrl+alt+e
@@ -35,19 +35,19 @@ ctrl+alt+f
 	thunar
 
 #focus on a direction
-super+{k,j,h,l}
+alt+{k,j,h,l}
 	bspc node -f {north,south,west,east}
 
 #swap windows
-super+shift+{k,j,h,l}
+alt+shift+{k,j,h,l}
 	bspc node -s {north,south,west,east}
 
 #send window do workspace
-ctrl+super+{0-9}
+ctrl+alt+{0-9}
 	bspc node -d {0-9} --follow
 
 #go to workspace
-super+{1-5}
+alt+{1-5}
 	bspc desktop -f {1-5}
 
 #make window fullscreen

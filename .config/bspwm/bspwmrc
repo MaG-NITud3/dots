@@ -26,7 +26,7 @@
 #Auto-start ad Restart apps
 	start clipit
 	start sxhkd
-	start volumeicon
+#	start volumeicon
 	start dunst
 	start picom '--animations --experimental-backends --animation-dampening 15'
 	start /usr/bin/emacs --daemon
