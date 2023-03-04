@@ -16,6 +16,10 @@ compinit -C
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Pywal colors
+(/bin/cat $HOME/.cache/wal/sequences &)
+
+
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000

@@ -1,10 +1,10 @@
 #!/bin/env bash
 
 
-kitty_conf(){
-    sed -i "s/^color.*//g; /^$/ d; /^cursor       .*/ d; /^foreground   .*/ d; /^background   .*/ d" .config/kitty/kitty.conf 
-    cat ~/.cache/wal/kitty.conf >> .config/kitty/kitty.conf
-}
+#kitty_conf(){
+#    sed -i "s/^color.*//g; /^$/ d; /^cursor       .*/ d; /^foreground   .*/ d; /^background   .*/ d" .config/kitty/kitty.conf 
+#    cat ~/.cache/wal/kitty.conf >> .config/kitty/kitty.conf
+#}
 
 nitrogen --set-scaled "$1" --save > /dev/null 2>&1 &
 cp ~/.cache/wal/colors.Xresources ~/.Xresources > /dev/null 2>&1 &

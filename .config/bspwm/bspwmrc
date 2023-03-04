@@ -15,22 +15,23 @@
 	nitrogen --restore &
 	xsetroot -cursor_name left_ptr &
 	wmname compiz &
-	xfce4-panel -d &
+	xfce4-panel &
 	lxsession &
 	flameshot &
 	nm-applet &
 	.local/scripts/toggle_touchpad.sh -r &
 	thunar --daemon &
 	numlockx on &
+	qbittorrent &
 	# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 #Auto-start ad Restart apps
-	start clipit
+	start copyq
 	start sxhkd
 #	start volumeicon
 	start dunst
 	start picom '--animations --experimental-backends --animation-dampening 15'
 	start /usr/bin/emacs --daemon
-	start qbittorrent
+#	start xsnow -hidemenu
 
 # Configure
 	bspc monitor eDP-1 -d 1 2 3 4 5 &
@@ -59,6 +60,7 @@
 	bspc rule -a "Wrapper-2.0" state=floating &
 	bspc rule -a "Zathura" state=tiled &
 	bspc rule -a "Emacs" state=tiled &
+	bspc rule -a '*:*:Picture in picture' state=floating
 	# bspc rule -a "focused.[!]focused" border=off &
 	# bspc rule -a "Xfce4-panel" focus=on
 	# bspc rule -a "xfce4-panel" focus=ons

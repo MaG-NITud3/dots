@@ -14,12 +14,14 @@ timezsh() {
 }
 
 shreddir(){
-	shred -uzvn3 $(find $1)
-	rm -rf $1
+	shred -uzvn3 $(find $1 | tail -n +2) &&	rmdir $(realpath "$1")
 }
 
 sysupdate(){
-	yay -Syu --answerupgrade None --answerdiff None --answerclean All --answeredit None --noconfirm --sudoloop
+	sudo pacman -Syu --noconfirm
+	yay -Quq --aur | xargs -n 1 yay -S --noconfirm
+	echo "Packages not updated/errored:"
+	echo $(yay -Quq --aur)
 }
 
 flatupdate(){
@@ -27,6 +29,6 @@ flatupdate(){
 }
 
 fullsysupdate(){
-	sysupdate &
-	flatupdate &
+	sysupdate &&
+	flatupdate
 }
