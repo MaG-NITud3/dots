@@ -2,10 +2,6 @@
 alt+q
 	bspc node -c
 
-#open xprop
-ctrl+alt+p
-	xprop
-
 #force terminate program with SIGKILL
 ctrl+alt+shift+x
 	kill -9 $(xprop | grep -Po '(?<=(_NET_WM_PID\(CARDINAL\)\ =\ )).*')

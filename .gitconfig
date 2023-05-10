@@ -1,7 +1,7 @@
 [user]
 	name = MaG-NITud3
 	email = 78688755+MaG-NITud3@users.noreply.github.com
-	signingkey = C43652DA277F194A8CC7FE85A2B57476B015A1B3
+	signingkey = 25DC188CA9FF46A2
 [core]
 	excludesFile = .gitignore_global
 	autocrlf = input

@@ -16,22 +16,22 @@
 	xsetroot -cursor_name left_ptr &
 	wmname compiz &
 	xfce4-panel &
-  lxsession &
+    lxsession &
 	flameshot &
 	nm-applet &
 	.local/scripts/toggle_touchpad.sh -r &
 	thunar --daemon &
 	numlockx on &
 	qbittorrent &
-	/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+	# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 #Auto-start ad Restart apps
 	start copyq
-	start sxhkd
+	start sxhkd -c "~/.config/sxhkd/sxhkdrc-normal ~/.config/sxhld/sxhkdrc-bspwm"
 	start volumeicon
 	start dunst
 	start picom
 	# start /usr/bin/emacs --daemon
-#	start xsnow -hidemenu
+	# start xsnow -hidemenu
 
 # Configure
 	bspc monitor eDP-1 -d 1 2 3 4 5 &
