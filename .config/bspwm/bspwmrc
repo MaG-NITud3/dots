@@ -1,14 +1,21 @@
 #!/bin/bash
 	bspc rule -r "*"
 #sxhkd startup
+	sxhkd -c .config/sxhkd/sxhkdrc-normal .config/sxhkd/sxhkdrc-bspwm &
+
+#function to start stuff once at launch
+# function start() {
+	# app=$1
+	# args=$2
+# }
 
 #function to start and restart apps
-	start(){
+function start(){
 		#$1 app name, $2 app arguments
 		if [[ $(pgrep -x $1) ]]; then 
 			pkill -x $1;
 		fi
-		exec $1 $2 &
+		exec $1 $2 $3 $4 &
 	}
 
 #Session startup
@@ -16,26 +23,27 @@
 	xsetroot -cursor_name left_ptr &
 	wmname compiz &
 	xfce4-panel &
-    lxsession &
-	flameshot &
+  lxsession &
 	nm-applet &
 	.local/scripts/toggle_touchpad.sh -r &
-	thunar --daemon &
 	numlockx on &
 	qbittorrent &
 	# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+	copyq &
+	dunst &
+	picom &
+	volumeicon &
+	thunar --daemon &
 #Auto-start ad Restart apps
-	start copyq
-	start sxhkd -c "~/.config/sxhkd/sxhkdrc-normal ~/.config/sxhld/sxhkdrc-bspwm"
-	start volumeicon
-	start dunst
-	start picom
+	# start copyq
+	# start volumeicon
+	# start dunst
+	# start picom
 	# start /usr/bin/emacs --daemon
 	# start xsnow -hidemenu
 
 # Configure
-	bspc monitor eDP-1 -d 1 2 3 4 5 &
-	bspc monitor eDP-1 -d 1 2 3 4 5 &
+	bspc monitor eDP-1 -d browser dev term files misc &
 	bspc config focused_border_color "$(xrdb -get "color3")" &
 	bspc config normal_border_color "$(xrdb -get "color0")" &
 	bspc config automatic_scheme alternate
@@ -61,6 +69,7 @@
 	bspc rule -a "Zathura" state=tiled &
 	bspc rule -a "Emacs" state=tiled &
 	bspc rule -a '*:*:Picture in picture' state=floating
+	bspc rule -a "tdrop-window" state=floating
 	# bspc rule -a "focused.[!]focused" border=off &
 	# bspc rule -a "Xfce4-panel" focus=on
 	# bspc rule -a "xfce4-panel" focus=ons
