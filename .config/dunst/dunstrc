@@ -5,7 +5,7 @@
     follow = mouse
     width = (0, 300)
     height = 1080
-    notification_limit = 2
+    notification_limit = 5
     origin = bottom-right
     offset = 30x30
     progress_bar = true
@@ -20,10 +20,10 @@
     dmenu = "/usr/bin/rofi -dmenu"
     font = JetBrains Mono Regular Nerd Font Complete Mono 12
     class = dunst
-    background = "#090A1B"
-	frame_color = "#616097"
-	highlight = "#616097"
-	foreground = "#616097"
+    background = "#3d2744"
+	frame_color = "#EE95D2"
+	highlight = "#EE95D2"
+	foreground = "#EE95D2"
 
 [urgency_critical]
 	background = "#2E3440"

@@ -1,39 +1,44 @@
-#!/bin/bash
+#!/bin/env bash
 	bspc rule -r "*"
+	lxsession &
 #sxhkd startup
 	sxhkd -c .config/sxhkd/sxhkdrc-normal .config/sxhkd/sxhkdrc-bspwm &
 
+# touchpad settings
 #function to start stuff once at launch
 # function start() {
 	# app=$1
 	# args=$2
 # }
 
-#function to start and restart apps
-function start(){
-		#$1 app name, $2 app arguments
-		if [[ $(pgrep -x $1) ]]; then 
-			pkill -x $1;
-		fi
-		exec $1 $2 $3 $4 &
-	}
+# #function to start and restart apps
+# function start(){
+# 		#$1 app name, $2 app arguments
+# 		if [[ $(pgrep -x $1) ]]; then 
+# 			pkill -x $1;
+# 		fi
+# 		exec $1 $2 $3 $4 &
+# }
 
 #Session startup
+	xset r rate 250 30
 	nitrogen --restore &
+	xmodmap .Xmodmap
 	xsetroot -cursor_name left_ptr &
 	wmname compiz &
 	xfce4-panel &
-  lxsession &
+	xfce4-power-manager &
+  	lxsession &
 	nm-applet &
 	.local/scripts/toggle_touchpad.sh -r &
 	numlockx on &
-	qbittorrent &
 	# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 	copyq &
 	dunst &
 	picom &
 	volumeicon &
 	thunar --daemon &
+	source $HOME/.local/scripts/get-touchpad-id.sh > /dev/null
 #Auto-start ad Restart apps
 	# start copyq
 	# start volumeicon
@@ -43,7 +48,7 @@ function start(){
 	# start xsnow -hidemenu
 
 # Configure
-	bspc monitor eDP-1 -d browser dev term files misc &
+	bspc monitor eDP-1 -d browser dev term files misc scratchpad&
 	bspc config focused_border_color "$(xrdb -get "color3")" &
 	bspc config normal_border_color "$(xrdb -get "color0")" &
 	bspc config automatic_scheme alternate
@@ -61,7 +66,7 @@ function start(){
 	bspc config right_padding $padding &
 	bspc config left_padding $padding &
 	bspc config bottom_padding $padding &
-	bspc config border_width 4
+	bspc config border_width 4 &
 	bspc config window_gap $gap &
 
 #Rules
@@ -70,6 +75,10 @@ function start(){
 	bspc rule -a "Emacs" state=tiled &
 	bspc rule -a '*:*:Picture in picture' state=floating
 	bspc rule -a "tdrop-window" state=floating
+	bspc rule -a "Whatstux" state=tiled
 	# bspc rule -a "focused.[!]focused" border=off &
 	# bspc rule -a "Xfce4-panel" focus=on
 	# bspc rule -a "xfce4-panel" focus=ons
+xinput set-prop "$TOUCHPAD_ID" "libinput Tapping Enabled" 1 &
+xinput set-prop "$TOUCHPAD_ID" "libinput Natural Scrolling Enabled" 1 &
+xinput set-prop 11 190 0

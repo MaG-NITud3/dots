@@ -1,10 +1,12 @@
 [user]
 	name = MaG-NITud3
 	email = theeparthasarathi@gmail.com
-	signingkey = 25DC188CA9FF46A2
+	signingkey = theeparthasarathi@gmail.com
+	name = Parthasarathi
 [core]
 	excludesFile = .gitignore_global
 	autocrlf = input
+	editor = nvim
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
@@ -21,3 +23,7 @@
 	recentrepo = /home/mag/Workstation/Crap/gitwork/QueueMod
 [commit]
 	gpgsign = true
+[web]
+	browser = librewolf
+[difftool "*"]
+	cmd = "nvim -d"

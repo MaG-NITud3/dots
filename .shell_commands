@@ -13,10 +13,6 @@ timezsh() {
   for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
 }
 
-shreddir(){
-	shred -uzvn3 $(find $1 | tail -n +2) &&	rmdir $(realpath "$1")
-}
-
 sysupdate(){
 	sudo pacman -Syu --noconfirm
 	yay -Quq --aur | xargs -n 1 yay -S --noconfirm
